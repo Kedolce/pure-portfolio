@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --pc: black;
+    /*
+    mt : text-slate-50
+    st : text-slate-400
+    accent/lines : border-slate-800
+    */
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--pc);
+}
