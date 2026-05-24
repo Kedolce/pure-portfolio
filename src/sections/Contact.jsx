@@ -25,7 +25,6 @@ function Contact() {
         <div className="flex gap-8">
           <a href="#" className="text-xs tracking-widest uppercase transition-all text-slate-500 hover:text-slate-50 hover:scale-110">LinkedIn</a>
           <a rel="noopener noreferrer" target="_blank" href="https://github.com/Kedolce" className="text-xs tracking-widest uppercase transition-all hover:scale-110 text-slate-500 hover:text-slate-50">GitHub</a>
-          <a href="#" className="text-xs tracking-widest uppercase transition-all text-slate-500 hover:text-slate-50 hover:scale-110">Instagram</a>
         </div>
         
         <p className="text-[10px] font-mono text-slate-600">
