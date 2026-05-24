@@ -1,18 +1,29 @@
 import aboutSection from "../assets/aboutSection.jpg";
+import htmlLogo from "../assets/html.svg";
+import cssLogo from "../assets/css.svg";
+import jsLogo from "../assets/js.svg";
+import reactLogo from "../assets/react.png";
+import tailwindLogo from "../assets/tailwind.png";
+import githubLogo from "../assets/github.png";
+import figmaLogo from "../assets/figma.svg";
+import vscodeLogo from "../assets/vscode.png";
+import mysqlLogo from "../assets/mysql.svg";
+import laravelLogo from "../assets/laravel.png";
+import phpLogo from "../assets/php.png";
 import Section from "../components/Section";
 
 const logoSkill = [
-  { name: "HTML", src: "src/assets/html.svg", alt: "HTML logo" },
-  { name: "CSS", src: "src/assets/css.svg", alt: "CSS logo" },
-  { name: "JavaScript", src: "src/assets/js.svg", alt: "JavaScript logo" },
-  { name: "React", src: "src/assets/react.png", alt: "React logo" },
-  {name: "Tailwind", src: "src/assets/tailwind.png", alt: "Tailwind CSS logo"},
-  {name: "Git", src: "src/assets/github.png", alt: "Git logo"},
-  {name: "Figma", src: "src/assets/figma.svg", alt: "Figma logo"},
-  {name: "VS Code", src: "src/assets/vscode.png", alt: "VS Code logo"},
-  {name: "mySQL", src: "src/assets/mysql.svg", alt: "MySQL logo"},
-  {name: "laravel", src: "src/assets/laravel.png", alt: "Laravel logo"},
-  {name: "PHP", src: "src/assets/php.png", alt: "PHP logo"},
+  { name: "HTML", src: htmlLogo, alt: "HTML logo" },
+  { name: "CSS", src: cssLogo, alt: "CSS logo" },
+  { name: "JavaScript", src: jsLogo, alt: "JavaScript logo" },
+  { name: "React", src: reactLogo, alt: "React logo" },
+  { name: "Tailwind", src: tailwindLogo, alt: "Tailwind CSS logo" },
+  { name: "Git", src: githubLogo, alt: "Git logo" },
+  { name: "Figma", src: figmaLogo, alt: "Figma logo" },
+  { name: "VS Code", src: vscodeLogo, alt: "VS Code logo" },
+  { name: "mySQL", src: mysqlLogo, alt: "MySQL logo" },
+  { name: "laravel", src: laravelLogo, alt: "Laravel logo" },
+  { name: "PHP", src: phpLogo, alt: "PHP logo" },
 ];
 
 function About() {
