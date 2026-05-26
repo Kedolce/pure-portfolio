@@ -4,7 +4,7 @@ function Project() {
   const projectList = [
     { title: "TaskZen", year: "2026", tech: "Tailwind", url: "https://kedolce.github.io/TaskZen-Saas-/" },
     { title: "Office Attendance", year: "2026", tech: "Tailwind - Laravel", url: "https://github.com/Kedolce/Sistem_Absensi_Pegawai_Kantor" },
-    { title: "Gradien, Coming Soon", year: "2026", tech: "ReactJS - Tailwind", url: "" }
+    { title: "Gradien", year: "2026", tech: "ReactJS - Tailwind", url: "" }
   ];
 
   return (

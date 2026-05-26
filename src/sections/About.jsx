@@ -67,7 +67,7 @@ function About() {
         {logoSkill.map((logo) => (
           <div
             key={logo.name}
-            className="flex flex-col items-center justify-center p-4 transition-all duration-200 border cursor-pointer w-36 rounded-xl border-white/10 bg-white/10 hover:-translate-y-1 hover:bg-white/20"
+            className="flex flex-col items-center justify-center p-4 transition-all duration-200 cursor-pointer w-36 rounded-xl hover:-translate-y-1 "
           >
             <img src={logo.src} alt={logo.alt} className="w-12 h-12 mb-4" />
             <p className="font-bold text-white/50 ">{logo.name}</p>
